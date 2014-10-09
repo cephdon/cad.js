@@ -6,15 +6,16 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "async": "~0.2.10",
     "express": "3.4.0",
+    "gulp": "~3.5.2",
     "jade": "*",
-    "xml2js": "~0.4.1",
-    "underscore": "~1.5.2",
-    "request": "~2.33.0",
     "libxmljs": "~0.8.1",
     "mkdirp": "~0.3.5",
-    "async": "~0.2.10",
-    "gulp": "~3.5.2"
+    "optimist": "^0.6.1",
+    "request": "~2.33.0",
+    "underscore": "~1.5.2",
+    "xml2js": "~0.4.1"
   },
   "devDependencies": {
     "gulp-requirejs": "~0.1.3",
