@@ -124,8 +124,9 @@ var showIndex = function(data) {
 var translateProduct = function(product) {
     var data = {
         "id": product.attr("id").value(),
-        "step": product.attr("step").value(),
+        "step": 'step', //product.attr("step").value(),
         "name": product.attr("name").value()
+
     };
     // Add children, if there are any
     if (product.attr("children")) {
