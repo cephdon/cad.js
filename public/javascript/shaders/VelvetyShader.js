@@ -14,7 +14,7 @@ define([
 ], function (THREE, vertexShaderCode, fragmentShaderCode) {
     THREE.VelvetyShader = function () {
         return {
-            //side: THREE.DoubleSide,
+            side: THREE.DoubleSide,
             vertexColors: THREE.VertexColors,
             uniforms: {
                 'opacity': {type: 'f', value: 1.0},
