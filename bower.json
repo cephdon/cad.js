@@ -1,0 +1,30 @@
+{
+  "name": "cad.js",
+  "description": "3D viewer for CAD files",
+  "main": [
+    "public/javascript/main.js",
+    "public/stylesheets/cadjs.css"
+  ],
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "authors": [
+    "Graham Hemingway <graham.hemingway@gmail.com>",
+    "J. Tanner Netterville <tannern@gmail.com>",
+    "Gabor Pap <gabor.pap@vanderbilt.edu>",
+    "William Gaggioli <wgaggioli@gmail.com>",
+    "Larry Howard <larry.howard@vanderbilt.edu>",
+    "Laszlo Juracz <laszlo.juracz@vanderbilt.edu>",
+    "Kevin Smyth <kevin.m.smyth@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "arts",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
